@@ -1,0 +1,1257 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <!-- Basic Page Needs
+================================================== -->
+    <title>InterHuman</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- CSS
+================================================== -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="green.css">
+
+</head>
+
+<body class="gray">
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+        <!-- Header Container
+================================================== -->
+        <header id="header-container" class="fullwidth dashboard-header not-sticky">
+
+            <!-- Header -->
+            <div id="header">
+                <div class="container">
+
+                    <!-- Left Side Content -->
+                    <div class="left-side">
+
+                        <!-- Logo -->
+                        <div id="logo">
+                            <a href="index.html"><img src="images/logo-2.png" alt=""></a>
+                        </div>
+
+                        <!-- Main Navigation / End -->
+
+                    </div>
+                    <!-- Left Side Content / End -->
+
+
+                    <!-- Right Side Content / End -->
+                    <div class="right-side">
+
+                        <!--  User Notifications -->
+                        <div class="header-widget hide-on-mobile">
+
+                            <!-- Notifications -->
+                            <div class="header-notifications">
+
+                                <!-- Trigger -->
+                                <div class="header-notifications-trigger">
+                                    <a href="dashboard-notification.html"><i class="icon-feather-bell"></i><span>4</span></a>
+                                </div>
+
+                                <!-- Dropdown -->
+                                <div class="header-notifications-dropdown">
+
+                                    <div class="header-notifications-headline">
+                                        <h4>Notifications</h4>
+                                        <button class="mark-as-read ripple-effect-dark" title="Mark all as read" data-tippy-placement="left">
+									<i class="icon-feather-check-square"></i>
+								</button>
+                                    </div>
+
+                                    <div class="header-notifications-content">
+                                        <div class="header-notifications-scroll" data-simplebar>
+                                            <ul>
+                                                <!-- Notification -->
+                                                <li class="notifications-not-read">
+                                                    <a href="dashboard-manage-candidates.html">
+                                                        <span class="notification-icon"><i class="icon-material-outline-group"></i></span>
+                                                        <span class="notification-text">
+													<strong>Michael Shannah</strong> applied for a job <span class="color">Full Stack Software Engineer</span>
+                                                        </span>
+                                                    </a>
+                                                </li>
+
+                                                <!-- Notification -->
+                                                <li>
+                                                    <a href="dashboard-manage-bidders.html">
+                                                        <span class="notification-icon"><i class=" icon-material-outline-gavel"></i></span>
+                                                        <span class="notification-text">
+													                              <strong>Gilbert Allanis</strong> placed a bid on your <span class="color">iOS App Development</span> project
+                                                        </span>
+                                                    </a>
+                                                </li>
+
+                                                <!-- Notification -->
+                                                <li>
+                                                    <a href="dashboard-manage-jobs.html">
+                                                        <span class="notification-icon"><i class="icon-material-outline-autorenew"></i></span>
+                                                        <span class="notification-text">
+													                              Your job listing <span class="color">Full Stack PHP Developer</span> is expiring.
+                                                        </span>
+                                                    </a>
+                                                </li>
+
+                                                <!-- Notification -->
+                                                <li>
+                                                    <a href="dashboard-manage-candidates.html">
+                                                        <span class="notification-icon"><i class="icon-material-outline-group"></i></span>
+                                                        <span class="notification-text">
+													<strong>Sindy Forrest</strong> applied for a job <span class="color">Full Stack Software Engineer</span>
+                                                        </span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <!-- Messages -->
+
+
+                        </div>
+                        <!--  User Notifications / End -->
+
+                        <!-- User Menu -->
+                        <div class="header-widget">
+
+                            <!-- Messages -->
+                            <div class="header-notifications user-menu">
+                                <div class="header-notifications-trigger">
+                                    <a href="#">
+                                        <div class="user-avatar status-online"><img src="images/user-avatar-placeholder.png" alt=""></div>
+                                    </a>
+                                </div>
+
+                                <!-- Dropdown -->
+                                <div class="header-notifications-dropdown">
+
+                                    <!-- User Status -->
+                                    <div class="user-status">
+
+                                        <!-- User Name / Avatar -->
+                                        <div class="user-details">
+                                            <div class="user-avatar status-online"><img src="images/user-avatar-placeholder.png" alt=""></div>
+                                            <div class="user-name">
+                                                Tom Mugisha <span>Candidate</span>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <ul class="user-menu-small-nav">
+                                        <li><a href="dashboard-candidate-index.html"><i class="icon-material-outline-dashboard"></i> Dashboard</a></li>
+                                        <li><a href="dashboard-settings.html"><i class="icon-material-outline-settings"></i> Settings</a></li>
+                                        <li><a href="index-logged-out.html"><i class="icon-material-outline-power-settings-new"></i> Logout</a></li>
+                                    </ul>
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- User Menu / End -->
+
+                        <!-- Mobile Navigation Button -->
+                        <span class="mmenu-trigger">
+					<button class="hamburger hamburger--collapse" type="button">
+						<span class="hamburger-box">
+							<span class="hamburger-inner"></span>
+                        </span>
+                        </button>
+                        </span>
+
+                    </div>
+                    <!-- Right Side Content / End -->
+
+                </div>
+            </div>
+            <!-- Header / End -->
+
+        </header>
+        <div class="clearfix"></div>
+        <!-- Header Container / End -->
+
+
+        <!-- Dashboard Container -->
+        <div class="dashboard-container">
+
+            <!-- Dashboard Sidebar
+	================================================== -->
+            <div class="dashboard-sidebar">
+                <div class="dashboard-sidebar-inner" data-simplebar>
+                    <div class="dashboard-nav-container">
+
+                        <!-- Responsive Navigation Trigger -->
+                        <a href="#" class="dashboard-responsive-nav-trigger">
+                            <span class="hamburger hamburger--collapse">
+                              <span class="hamburger-box">
+                                <span class="hamburger-inner"></span>
+                            </span>
+                            </span>
+                            <span class="trigger-title">Dashboard Navigation</span>
+                        </a>
+
+                        <!-- Navigation -->
+                        <div class="dashboard-nav">
+                            <div class="dashboard-nav-inner">
+
+                                <ul data-submenu-title="Start">
+                                    <li><a href="dashboard-candidate-index.html"> Dashboard</a></li>
+                                    <li><a href="dashboard-notification.html"> Applications <span class="nav-tag">2</span></a></li>
+                                    <li><a href="dashboard-bookmarks.html"> Bookmarks</a></li>
+                                    <li><a href="dashboard-job-alerts.html"> Job Alerts <span class="nav-tag">3</span></a></li>
+                                </ul>
+
+                                <ul data-submenu-title="Candidate">
+                                    <li class="active-submenu"><a href="#"><i class="icon-material-outline-assignment"></i> Organize Resume</a>
+                                        <ul>
+                                            <li> <a href="dashboard-add-resume.html">Add Resume </a></li>
+                                            <li> <a href="add-academic.html">Add Academic qualification</a></li>
+                                            <li> <a href="add-profession.html">Add Professional qualification</a></li>
+                                            <li> <a href="add-work.html">Add Work experience</a></li>
+                                            <li> <a href="add-training.html">Add Training</a></li>
+                                            <li> <a href="add-reference.html">Add Person of reference</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="dashboard-manage-resume.html"><i class="icon-material-outline-business-center"></i> Manage Resume</a>
+                                </ul>
+
+                                <ul data-submenu-title="Account">
+                                    <li><a href="dashboard-settings.html"><i class="icon-material-outline-settings"></i> Settings</a></li>
+                                    <li><a href="index-logged-out.html"><i class="icon-material-outline-power-settings-new"></i> Logout</a></li>
+                                </ul>
+
+                            </div>
+                        </div>
+                        <!-- Navigation / End -->
+
+                    </div>
+                </div>
+            </div>
+            <!-- Dashboard Sidebar / End -->
+
+
+            <!-- Dashboard Content
+	================================================== -->
+            <div class="dashboard-content-container" data-simplebar>
+                <div class="dashboard-content-inner">
+
+                    <!-- Dashboard Headline -->
+                    <div class="dashboard-headline">
+                        <h3>My Resume</h3>
+
+                        <!-- Breadcrumbs -->
+
+                    </div>
+
+                    <!-- Notification box -->
+                    <div class="notification notice margin-button-25" style="color:crimson">
+                        <p>All fields with * are mandatory</p>
+                    </div>
+
+
+                    <!-- Row -->
+                    <div class="row">
+
+                        <!-- Dashboard Box -->
+                        <div class="col-xl-12 col-md-12">
+
+                            <!-- Accordion -->
+                            <div class="accordion js-accordion">
+
+                                <!-- Accordion Item -->
+                                <div class="accordion-item js-accordion-item active">
+                                    <div class="accordion-header js-accordion-header">
+                                        <i class="icon-feather-folder-plus"></i> Resume
+                                    </div>
+
+                                    <!-- Accordtion Body -->
+                                    <div class="accordion-body js-accordion-body">
+
+                                        <!-- Accordion Content -->
+                                        <div class="accordion-body__contents">
+                                            <div class="row">
+                                                <div class="col-xl-4">
+                                                    <div class="submit-field">
+                                                        <h5>Resume Category <b style="color:crimson">*</b></h5>
+                                                        <select class="selectpicker with-border" data-size="7" title="Select Category">
+                                                    <option>Accounting and Finance</option>
+                                                    <option>Clerical & Data Entry</option>
+                                                    <option>Counseling</option>
+                                                    <option>Court Administration</option>
+                                                    <option>Human Resources</option>
+                                                    <option>Investigative</option>
+                                                    <option>IT and Computers</option>
+                                                    <option>Law Enforcement</option>
+                                                    <option>Management</option>
+                                                    <option>Miscellaneous</option>
+                                                    <option>Public Relations</option>
+                                                  </select>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-xl-12">
+                                                    <div class="submit-field">
+                                                        <h5>About Yourself</h5>
+                                                        <textarea cols="30" rows="5" class="with-border" required maxlength="1400"></textarea>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                    <!-- Accordion Body / End -->
+                                </div>
+
+                                <!-- Academic section -->
+                                <div id="details_acad" class="accordion__item js-accordion-item">
+                                    <div class="accordion-header js-accordion-header">
+                                        Academic Qualification
+                                    </div>
+
+                                    <!-- Accordtion Body -->
+                                    <div class="accordion-body js-accordion-body">
+
+                                        <!-- Accordion Content -->
+                                        <div class="accordion-body__contents">
+                                            <input type="hidden" name="academics" id="references" value="1">
+                                            <div class="acad_ref">
+                                                <div class="row">
+                                                    <div class="col-xl-3">
+                                                        <div class="submit-field">
+                                                            <h5>Country</h5>
+                                                            <select id="countries-1" name="select-countries-1" class="selectpicker with-border" data-size="7" title="Select Job Type" data-live-search="true">
+                                                            <option value="AR">Argentina</option>
+                                                            <option value="AM">Armenia</option>
+                                                            <option value="AW">Aruba</option>
+                                                            <option value="AU">Australia</option>
+                                                            <option value="AT">Austria</option>
+                                                            <option value="AZ">Azerbaijan</option>
+                                                            <option value="BS">Bahamas</option>
+                                                            <option value="BH">Bahrain</option>
+                                                            <option value="BD">Bangladesh</option>
+                                                            <option value="BB">Barbados</option>
+                                                            <option value="BY">Belarus</option>
+                                                            <option value="BE">Belgium</option>
+                                                            <option value="BZ">Belize</option>
+                                                            <option value="BJ">Benin</option>
+                                                            <option value="BM">Bermuda</option>
+                                                            <option value="BT">Bhutan</option>
+                                                            <option value="BG">Bulgaria</option>
+                                                            <option value="BF">Burkina Faso</option>
+                                                            <option value="BI" selected>Burundi</option>
+                                                            <option value="KH">Cambodia</option>
+                                                            <option value="CM">Cameroon</option>
+                                                            <option value="CA">Canada</option>
+                                                            <option value="CV">Cape Verde</option>
+                                                            <option value="KY">Cayman Islands</option>
+                                                            <option value="CO">Colombia</option>
+                                                            <option value="KM">Comoros</option>
+                                                            <option value="CG">Congo</option>
+                                                            <option value="CK">Cook Islands</option>
+                                                            <option value="CR">Costa Rica</option>
+                                                            <option value="CI">Côte d'Ivoire</option>
+                                                            <option value="HR">Croatia</option>
+                                                            <option value="CU">Cuba</option>
+                                                            <option value="CW">Curaçao</option>
+                                                            <option value="CY">Cyprus</option>
+                                                            <option value="CZ">Czech Republic</option>
+                                                            <option value="DK">Denmark</option>
+                                                            <option value="DJ">Djibouti</option>
+                                                            <option value="DM">Dominica</option>
+                                                            <option value="DO">Dominican Republic</option>
+                                                            <option value="EC">Ecuador</option>
+                                                            <option value="EG">Egypt</option>
+                                                            <option value="GP">Guadeloupe</option>
+                                                            <option value="GU">Guam</option>
+                                                            <option value="GT">Guatemala</option>
+                                                            <option value="GG">Guernsey</option>
+                                                            <option value="GN">Guinea</option>
+                                                            <option value="GW">Guinea-Bissau</option>
+                                                            <option value="GY">Guyana</option>
+                                                            <option value="HT">Haiti</option>
+                                                            <option value="HN">Honduras</option>
+                                                            <option value="HK">Hong Kong</option>
+                                                            <option value="HU">Hungary</option>
+                                                            <option value="IS">Iceland</option>
+                                                            <option value="IN">India</option>
+                                                            <option value="ID">Indonesia</option>
+                                                            <option value="NO">Norway</option>
+                                                            <option value="OM">Oman</option>
+                                                            <option value="PK">Pakistan</option>
+                                                            <option value="PW">Palau</option>
+                                                            <option value="PA">Panama</option>
+                                                            <option value="PG">Papua New Guinea</option>
+                                                            <option value="PY">Paraguay</option>
+                                                            <option value="PE">Peru</option>
+                                                            <option value="PH">Philippines</option>
+                                                            <option value="PN">Pitcairn</option>
+                                                            <option value="PL">Poland</option>
+                                                            <option value="PT">Portugal</option>
+                                                            <option value="PR">Puerto Rico</option>
+                                                            <option value="QA">Qatar</option>
+                                                            <option value="RE">Réunion</option>
+                                                            <option value="RO">Romania</option>
+                                                            <option value="RU">Russian Federation</option>
+                                                            <option value="RW">Rwanda</option>
+                                                            <option value="SZ">Swaziland</option>
+                                                            <option value="SE">Sweden</option>
+                                                            <option value="CH">Switzerland</option>
+                                                            <option value="TR">Turkey</option>
+                                                            <option value="TM">Turkmenistan</option>
+                                                            <option value="TV">Tuvalu</option>
+                                                            <option value="UG">Uganda</option>
+                                                            <option value="UA">Ukraine</option>
+                                                            <option value="GB">United Kingdom</option>
+                                                            <option value="US">United States</option>
+                                                            <option value="UY">Uruguay</option>
+                                                            <option value="UZ">Uzbekistan</option>
+                                                            <option value="YE">Yemen</option>
+                                                            <option value="ZM">Zambia</option>
+                                                            <option value="ZW">Zimbabwe</option>
+                                                          </select>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-xl-3">
+                                                        <div class="submit-field">
+                                                            <h5>Institution <b style="color:crimson">*</b></h5>
+                                                            <input type="institname-1" name="text_field[]" placeholder="Enter institution name" required class="with-border">
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-xl-3">
+                                                        <div class="submit-field">
+                                                            <h5>Select Level </h5>
+                                                            <select id="selectpicker-level-1" class="selectpicker with-border" data-size="7" title="Select Level" required name="level">
+                                                              <option>Master's Degree</option>
+                                                              <option>License</option>
+                                                              <option>Bachelor Degree</option>
+                                                              <option>Post Fondamental Diploma</option>
+                                                              <option>Fondamental Diploma</option>
+                                                              <option>A3 Diploma</option>
+                                                              <option>A2 Diploma</option>
+                                                              <option>PhD</option>
+                                                              <option>Other</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-xl-3">
+                                                        <div class="submit-field">
+                                                            <h5>Course Name <b style="color:crimson">*</b></h5>
+                                                            <input id="acad-course-1" type="text" name="course" required class="with-border" placeholder="Enter course name">
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-xl-6">
+                                                        <div class="submit-field">
+                                                            <h5>Timeframe</h5>
+                                                            <div class="row">
+                                                                <div class="col-xl-6">
+                                                                    <div class="input-with-icon">
+                                                                        <input id="startdate-1" class="with-border" type="month" placeholder="start">
+                                                                        <i class="currency">Start</i>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-xl-6">
+                                                                    <div class="input-with-icon">
+                                                                        <input id="enddate-1" class="with-border" type="month" placeholder="">
+                                                                        <i class="currency">End</i>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="feedback-yes-no margin-top-50">
+                                                        <div class="radio">
+                                                            <input id="radio-1" name="radio" type="radio" checked>
+                                                            <label for="radio-1"><span class="radio-label"></span> On-Site</label>
+                                                        </div>
+
+                                                        <div class="radio">
+                                                            <input id="radio-2" name="radio" type="radio">
+                                                            <label for="radio-2"><span class="radio-label"></span> Online</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-6 flex">
+                                                        <div class="submit-field">
+                                                            <div class="form-acad">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <a href="javascript:void(0);" class="add_acad dark ripple-effect button-sliding-icon">Add New field <i class="icon-material-outline-add"></i></a>
+
+                                        </div>
+
+                                    </div>
+                                    <!-- Accordion Body / End -->
+                                </div>
+
+                                <!-- Prefessional Qualification section -->
+                                <div class="accordion__item js-accordion-item">
+                                    <div class="accordion-header js-accordion-header">
+                                        Professional Qualification
+                                    </div>
+
+                                    <!-- Accordtion Body -->
+                                    <div class="accordion-body js-accordion-body">
+
+                                        <!-- Accordion Content -->
+                                        <div class="accordion-body__contents">
+                                            <div class="prof_ref">
+                                                <div class="row">
+                                                    <div class="col-xl-3">
+                                                        <div class="submit-field">
+                                                            <h5>Institution Name</h5>
+                                                            <input type="text" name="institution" placeholder="Enter institution name" required class="with-border">
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-xl-3">
+                                                        <div class="submit-field">
+                                                            <h5>Course Name</h5>
+                                                            <input type="text" name="course" required class="with-border" placeholder="Enter course name" required class="with-border">
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-xl-4">
+                                                        <div class="submit-field">
+                                                            <h5>Timeframe</h5>
+                                                            <div class="row">
+                                                                <div class="col-xl-6">
+                                                                    <div class="input-with-icon">
+                                                                        <input class="with-border" type="month" placeholder="">
+                                                                        <i class="currency">Start</i>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-xl-6">
+                                                                    <div class="input-with-icon">
+                                                                        <input class="with-border" type="month" placeholder="">
+                                                                        <i class="currency">End</i>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="feedback-yes-no margin-top-50">
+                                                        <div class="radio">
+                                                            <input id="radio-1" name="radio" type="radio" checked>
+                                                            <label for="radio-1"><span class="radio-label"></span> On-Site</label>
+                                                        </div>
+
+                                                        <div class="radio">
+                                                            <input id="radio-2" name="radio" type="radio">
+                                                            <label for="radio-2"><span class="radio-label"></span> Online</label>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                            <a href="javascript:void(0);" class="add_prof dark ripple-effect button-sliding-icon">Add New field <i class="icon-material-outline-add"></i></a>
+                                        </div>
+                                    </div>
+                                    <!-- Accordion Body / End -->
+                                </div>
+
+                                <!-- Training Qualification section -->
+                                <div class="accordion__item js-accordion-item">
+                                    <div class="accordion-header js-accordion-header">
+                                        Training Qualification
+                                    </div>
+
+                                    <!-- Accordtion Body -->
+                                    <div class="accordion-body js-accordion-body">
+
+                                        <!-- Accordion Content -->
+                                        <div class="accordion-body__contents">
+                                            <div class="train_ref">
+                                                <div class="row">
+                                                    <div class="col-xl-6">
+                                                        <div class="submit-field">
+                                                            <h5>Training Title</h5>
+                                                            <input type="text" class="with-border">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-6">
+                                                        <div class="submit-field">
+                                                            <h5>Training Institution</h5>
+                                                            <input type="text" class="with-border">
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-xl-3">
+                                                        <div class="submit-field">
+                                                            <h5>Area of Training</h5>
+                                                            <input type="text" class="with-border">
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-xl-4">
+                                                        <div class="submit-field">
+                                                            <h5>Timeframe</h5>
+                                                            <div class="row">
+                                                                <div class="col-xl-6">
+                                                                    <div class="input-with-icon">
+                                                                        <input class="with-border" type="month" placeholder="">
+                                                                        <i class="currency">Start</i>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-xl-6">
+                                                                    <div class="input-with-icon">
+                                                                        <input class="with-border" type="month" placeholder="">
+                                                                        <i class="currency">End</i>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="feedback-yes-no margin-top-50">
+                                                        <div class="radio">
+                                                            <input id="radio-1" name="radio" type="radio" checked>
+                                                            <label for="radio-1"><span class="radio-label"></span> On-Site</label>
+                                                        </div>
+
+                                                        <div class="radio">
+                                                            <input id="radio-2" name="radio" type="radio">
+                                                            <label for="radio-2"><span class="radio-label"></span> Online</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <a href="javascript:void(0);" class="add_train dark ripple-effect button-sliding-icon">Add New field <i class="icon-material-outline-add"></i></a>
+                                        </div>
+
+                                    </div>
+                                    <!-- Accordion Body / End -->
+                                </div>
+
+                                <!-- Work Experience section -->
+                                <div class="accordion__item js-accordion-item">
+                                    <div class="accordion-header js-accordion-header">
+                                        Work Experience
+                                    </div>
+
+                                    <!-- Accordtion Body -->
+                                    <div class="accordion-body js-accordion-body">
+
+                                        <!-- Accordion Content -->
+                                        <div class="accordion-body__contents">
+                                            <div class="work_ref">
+                                                <div class="row">
+                                                    <div class="col-xl-6">
+                                                        <div class="submit-field">
+                                                            <h5>Company Name <b style="color:crimson">*</b></h5>
+                                                            <input placeholder="Enter institution name" type="text" name="institution" required class="with-border">
+                                                        </div>
+                                                    </div>
+
+
+
+                                                    <div class="col-xl-6">
+                                                        <div class="submit-field">
+                                                            <h5>Job Title <b style="color:crimson">*</b></h5>
+                                                            <input type="text" name="jobtitle" required name="phone" class="with-border" placeholder="Enter job title">
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-xl-2">
+                                                        <div class="submit-field">
+                                                            <h5>Start Date <b style="color:crimson">*</b></h5>
+                                                            <input type="month" name="startdate" required class="with-border">
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-xl-2">
+                                                        <div class="submit-field">
+                                                            <h5>End Date <b style="color:crimson">*</b></h5>
+                                                            <input type="month" name="enddate" required class="with-border">
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-xl-2 margin-top-50">
+                                                        <div class="checkbox">
+                                                            <input type="checkbox" id="chekcbox1" checked>
+                                                            <label for="chekcbox1"><span class="checkbox-icon"></span> To-Present</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-12">
+                                                        <div class="submit-field">
+                                                            <h5>Duties and Responsibilities</h5>
+                                                            <textarea class="with-border" name="duties"></textarea>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                                <div class="clearfix"></div>
+
+                                            </div>
+                                            <a href="javascript:void(0);" class="add_work dark ripple-effect button-sliding-icon">Add New field <i class="icon-material-outline-add"></i></a>
+                                        </div>
+
+                                    </div>
+                                    <!-- Accordion Body / End -->
+                                </div>
+
+                                <!-- Language Proficiency -->
+                                <div class="accordion__item js-accordion-item">
+                                    <div class="accordion-header js-accordion-header">
+                                        Language profeciency
+                                    </div>
+
+                                    <!-- Accordtion Body -->
+                                    <div class="accordion-body js-accordion-body">
+
+                                        <!-- Accordion Content -->
+                                        <div class="accordion-body__contents">
+                                            <input type="hidden" name="references" id="references" value="1">
+                                            <div class="lang_ref">
+                                                <div class="row">
+                                                    <div class="col-xl-4">
+                                                        <div class="submit-field">
+                                                            <h5>Language</h5>
+                                                            <select class="selectpicker" multiple data-selected-text-format="count > 3">
+                                                            <option>French</option>
+                                                            <option>English</option>
+                                                            <option>Kirundi</option>
+                                                          </select>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-xl-2">
+                                                        <div class="submit-field">
+                                                            <h5>Speaking</h5>
+                                                            <select name="speak" required class="selectpicker with-border">
+                                                            <option value="Fair">Fair</option>
+                                                            <option value="Good">Good</option>
+                                                            <option value="Very Good">Very Good</option>
+                                                          </select>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-xl-2">
+                                                        <div class="submit-field">
+                                                            <h5>Reading</h5>
+                                                            <select name="read" required class="selectpicker with-border">
+                                                            <option value="Fair">Fair</option>
+                                                            <option value="Good">Good</option>
+                                                            <option value="Very Good">Very Good</option>
+                                                          </select>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-xl-2">
+                                                        <div class="submit-field">
+                                                            <h5>Writing</h5>
+                                                            <select name="write" required class="selectpicker with-border">
+                                                            <option value="Fair">Fair</option>
+                                                            <option value="Good">Good</option>
+                                                            <option value="Very Good">Very Good</option>
+                                                          </select>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                            <a id="add-ref" href="javascript:void(0);" class="add_lang dark ripple-effect button-sliding-icon">Add New field <i class="icon-material-outline-add"></i></a>
+                                        </div>
+
+                                    </div>
+                                    <!-- Accordion Body / End -->
+                                </div>
+
+                                <!-- Person of reference -->
+                                <div class="accordion__item js-accordion-item">
+                                    <div class="accordion-header js-accordion-header">
+                                        Person of references
+                                    </div>
+
+                                    <!-- Accordtion Body -->
+                                    <div class="accordion-body js-accordion-body">
+                                        <!-- Accordion Content -->
+
+                                        <div class="accordion-body__contents">
+                                            <input type="hidden" name="references" id="references" value="1">
+                                            <div class="person_ref">
+                                                <div class="row">
+                                                    <div class="col-xl-3">
+                                                        <div class="submit-field">
+                                                            <h5>Full Names</h5>
+                                                            <input id="refname-1" name="name-1" type="text" class="with-border" placeholder="Name">
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-xl-3">
+                                                        <div class="submit-field">
+                                                            <h5>Email</h5>
+                                                            <input id="refmail-1" type="email" name="email-1" class="with-border" placeholder="Email Address">
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-xl-3">
+                                                        <div class="submit-field">
+                                                            <h5>Title / Position</h5>
+                                                            <input id="reftitle-1" type="text" name="title-1" requered class="with-border" placeholder="Position">
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-xl-3">
+                                                        <div class="submit-field">
+                                                            <h5>Phone Number</h5>
+                                                            <input id="refphone-1" type="tel" name="phone-1" required class="with-border" placeholder="Number">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-3 flex">
+                                                        <div class="submit-field">
+                                                            <div class="form-cv">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <a id="add-ref" href="javascript:void(0);" class="add-ref dark ripple-effect button-sliding-icon">Add New field <i class="icon-material-outline-add"></i></a>
+                                        </div>
+
+                                    </div>
+                                    <!-- Accordion Body / End -->
+                                </div>
+
+                            </div>
+                            <!-- Accordion / End -->
+
+                        </div>
+                        <div class="col-xl-12">
+                            <div class="dashboard-box margin-top-0">
+                                <!-- Upload Button -->
+                                <div class="content with-padding padding-bottom-10">
+                                    <div class="uploadButton margin-top-10">
+                                        <input class="uploadButton-input" type="file" accept="image/*, application/pdf" id="upload" multiple/>
+                                        <label class="uploadButton-button ripple-effect" for="upload">Upload Files</label>
+                                        <span class="uploadButton-file-name"> Maximum file size: 5 MB</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Checkbox -->
+
+                            <div class="checkbox margin-top-30">
+                                <input type="checkbox" id="two-step">
+                                <label for="two-step"><span class="checkbox-icon"></span>  I agree to the <a href="assets/privacy-policy.pdf">Privacy policy </a> and the <a href="assets/terms-of-use.pdf">Terms and Conditions</a></label>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-xl-12">
+                        <a href="#" class=" create-cv button ripple-effect big margin-top-30">Save</a>
+                    </div>
+                </div>
+
+
+            </div>
+            <!-- Row / End -->
+
+            <!-- Footer -->
+
+
+            <!-- Footer / End -->
+
+        </div>
+    </div>
+    <!-- Dashboard Content / End -->
+
+    </div>
+    <!-- Dashboard Container / End -->
+
+    </div>
+    <!-- Wrapper / End -->
+
+
+    <!-- Apply for a job popup
+================================================== -->
+    <div id="small-dialog" class="zoom-anim-dialog mfp-hide dialog-with-tabs">
+
+        <!--Tabs -->
+        <div class="sign-in-form">
+
+            <ul class="popup-tabs-nav">
+                <li><a href="#tab">Add Note</a></li>
+            </ul>
+
+            <div class="popup-tabs-container">
+
+                <!-- Tab -->
+                <div class="popup-tab-content" id="tab">
+
+                    <!-- Welcome Text -->
+                    <div class="welcome-text">
+                        <h3>Do Not Forget 😎</h3>
+                    </div>
+
+                    <!-- Form -->
+                    <form method="post" id="add-note">
+
+                        <select class="selectpicker with-border default margin-bottom-20" data-size="7" title="Priority">
+                          <option>Low Priority</option>
+                          <option>Medium Priority</option>
+                          <option>High Priority</option>
+                        </select>
+
+                        <textarea name="textarea" cols="10" placeholder="Note" class="with-border"></textarea>
+
+                    </form>
+
+                    <!-- Button -->
+                    <button class="button full-width button-sliding-icon ripple-effect" type="submit" form="add-note">Add Note <i class="icon-material-outline-arrow-right-alt"></i></button>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Apply for a job popup / End -->
+
+    <script src="https://cdn.rawgit.com/PascaleBeier/bootstrap-validate/v2.2.0/dist/bootstrap-validate.js"></script>
+
+    <!-- Scripts
+================================================== -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery-migrate-3.0.0.min.js"></script>
+    <script src="js/mmenu.min.js"></script>
+    <script src="js/tippy.all.min.js"></script>
+    <script src="js/simplebar.min.js"></script>
+    <script src="js/bootstrap-slider.min.js"></script>
+    <script src="js/bootstrap-select.min.js"></script>
+    <script src="js/snackbar.js"></script>
+    <script src="js/clipboard.min.js"></script>
+    <script src="js/counterup.min.js"></script>
+    <script src="js/magnific-popup.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/custom.js"></script>
+
+    <!-- Snackbar // documentation: https://www.polonel.com/snackbar/ -->
+    <script>
+        // Snackbar for user status switcher
+        $('#snackbar-user-status label').click(function() {
+            Snackbar.show({
+                text: 'Your status has been changed!',
+                pos: 'bottom-center',
+                showAction: false,
+                actionText: "Dismiss",
+                duration: 3000,
+                textColor: '#fff',
+                backgroundColor: '#383838'
+            });
+        });
+
+        // Post submission dialog
+        $('.create-cv').click(function() {
+            Snackbar.show({
+                text: 'Completed! Go to Organize Resume for additional fields',
+                pos: 'top-center',
+                showAction: true,
+                actionText: "Dismiss",
+                duration: 3000,
+                actionTextColor: '#38b653',
+                backgroundColor: '#383838'
+            });
+        });
+    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous">
+    </script>
+    <!-- Add Field buttons -->]
+    <script type="text/javascript">
+        $(document).ready(function() {
+            var maxField = 10; //Input fields increment limitation
+            var addButton = $('.add_acad'); //Add button selector
+            var wrapper = $('.acad_ref'); //Input field wrapper
+            var fieldHTML = ` <div class = "row"><div class = "col-xl-3"><div class = "submit-field"><h5> Country </h5> <select id = "countries-1" name = "select-countries-1" class = "selectpicker with-border" data - size = "7" title = "Select Job Type" data - live - search = "true">
+                <option value = "AR"> Argentina </option> <option value = "AM"> Armenia </option> <option value = "AW"> Aruba </option> <option value = "AU"> Australia </option> <option value = "AT"> Austria </option> <option value = "AZ"> Azerbaijan </option> <option value = "BS"> Bahamas </option> <option value = "BH"> Bahrain </option> <option value = "BD"> Bangladesh </option> <option value = "BB"> Barbados </option> <option value = "BY"> Belarus </option> <option value = "BE"> Belgium </option> <option value = "BZ"> Belize </option> <option value = "BJ"> Benin </option> <option value = "BM"> Bermuda </option> <option value = "BT"> Bhutan </option> <option value = "BG"> Bulgaria </option> <option value = "BF"> Burkina Faso </option> <option value = "BI" selected> Burundi </option> <option value = "KH"> Cambodia < /option> <
+                <option value = "CM"> Cameroon </option> <option value = "CA"> Canada </option>
+                <option value = "CV"> Cape Verde </option>
+                <option value = "KY"> Cayman Islands </option> 
+                <option value = "CO"> Colombia </option> 
+                <option value = "KM"> Comoros </option>
+                <option value = "CG"> Congo </option>
+                <option value = "CK"> Cook Islands </option>
+                <option value = "CR"> Costa Rica </option> 
+                <option value = "CI"> Côte d 'Ivoire</option>
+                <option value = "HR"> Croatia </option>
+                <option value = "CU"> Cuba </option>
+                <option value = "CW"> Curaçao </option>
+                <option value = "CY"> Cyprus </option>
+                <option value = "CZ"> Czech Republic </option>
+                <option value = "DK"> Denmark </option>
+                <option value = "DJ"> Djibouti </option>
+                <option value = "DM"> Dominica </option>
+                <option value = "DO"> Dominican Republic </option>
+                <option value = "EC"> Ecuador </option>
+                <option value = "EG"> Egypt </option>
+                <option value = "GP"> Guadeloupe </option>
+                <option value = "GU"> Guam </option>
+                <option value = "GT"> Guatemala </option>
+                <option value = "GG"> Guernsey </option>
+                <option value = "GN"> Guinea </option>
+                <option value = "GW"> Guinea - Bissau </option>
+                <option value = "GY"> Guyana </option>
+                <option value = "HT"> Haiti </option>
+                <option value = "HN"> Honduras </option>
+                <option value = "HK"> Hong Kong </option>
+                <option value = "HU"> Hungary </option>
+                <option value = "IS"> Iceland </option>
+                <option value = "IN"> India </option>
+                <option value = "ID"> Indonesia </option>
+                <option value = "NO"> Norway </option>
+                <option value = "OM"> Oman </option>
+                <option value = "PK"> Pakistan </option>
+                <option value = "PW"> Palau </option>
+                <option value = "PA"> Panama </option>
+                <option value = "PG"> Papua New Guinea </option>
+                <option value = "PY"> Paraguay </option>
+                <option value = "PE"> Peru </option>
+                <option value = "PH"> Philippines </option> 
+                <option value = "PN"> Pitcairn </option>
+                <option value = "PL"> Poland </option>
+                <option value = "PT"> Portugal </option>
+                <option value = "PR"> Puerto Rico </option>
+                <option value = "QA"> Qatar </option>
+                <option value = "RE"> Réunion </option>
+                <option value = "RO"> Romania </option>
+                <option value = "RU"> Russian Federation </option>
+                <option value = "RW"> Rwanda </option>
+                <option value = "SZ"> Swaziland </option>
+                <option value = "SE"> Sweden </option>
+                <option value = "CH"> Switzerland </option>
+                <option value = "TR"> Turkey </option>
+                <option value = "TM"> Turkmenistan </option>
+                <option value = "TV"> Tuvalu </option>
+                <option value = "UG"> Uganda </option>
+                <option value = "UA"> Ukraine </option>
+                <option value = "GB"> United Kingdom </option>
+                <option value = "US"> United States </option>
+                <option value = "UY"> Uruguay </option>
+                <option value = "UZ"> Uzbekistan </option>
+                <option value = "YE"> Yemen </option>
+                <option value = "ZM"> Zambia </option>
+                <option value = "ZW"> Zimbabwe </option>
+                </select> </div> </div><div class = "col-xl-3"><div class = "submit-field"><h5> Institution <b style = "color:crimson"> * </b></h5>
+                <input type = "institname-1" name = "text_field[]" placeholder = "Enter institution name" required class = "with-border"></div> </div><div class = "col-xl-3">
+                <div class = "submit-field"><h5> Select Level </h5> <select id = "selectpicker-level-1" class = "selectpicker with-border" data - size = "7" title = "Select Level" required name = "level">
+                <option> Master 's Degree</option> <option> License </option> <option> Bachelor Degree </option> <option> Post Fondamental Diploma </option> <option> Fondamental Diploma </option> <option> A3 Diploma </option> <option> A2 Diploma </option> <option> PhD </option> <option> Other </option> </select> </div> </div>
+                <div class = "col-xl-3"><div class = "submit-field"><h5> Course Name <b style = "color:crimson"> * </b></h5><input id = "acad-course-1" type = "text" name = "course" required class = "with-border" placeholder = "Enter course name" > </div> </div>
+                <div class = "col-xl-6"><div class = "submit-field"><h5> Timeframe </h5> <div class = "row"><div class = "col-xl-6"><div class = "input-with-icon">
+                <input id = "startdate-1" class = "with-border" type = "month" placeholder = "start"> <i class = "currency" > Start </i> </div> </div> <div class = "col-xl-6">
+                <div class = "input-with-icon"><input id = "enddate-1" class = "with-border" type = "month" placeholder = ""><i class = "currency"> End </i> </div> </div> </div> </div> </div><div class = "feedback-yes-no margin-top-50">
+                <div class = "radio"><input id = "radio-1" name = "radio" type = "radio" checked><label for = "radio-1"> <span class = "radio-label"> </span> On-Site</label>
+                </div><div class = "radio"><input id = "radio-2" name = "radio" type = "radio"><label for = "radio-2"> <span class = "radio-label"> </span> Online</label>
+                </div> </div> <div class = "col-xl-6 flex"><div class = "submit-field"><div class = "form-acad"></div> </div> </div> <a href = "javascript:void(0);" class = "dark ripple-effect button-sliding-icon remove_button"> Remove </a> </div> `; //New input field html
+
+            var x = 1; //Initial field counter is 1
+
+            //Once add button is clicked
+            $(addButton).click(function() {
+                //Check maximum number of input fields
+                if (x < maxField) {
+                    x++; //Increment field counter
+                    $(wrapper).append(fieldHTML); //Add field html
+                }
+            });
+
+            //Once remove button is clicked
+            $(wrapper).on('click', '.remove_button', function(e) {
+                e.preventDefault();
+                $(this).parent('div').remove(); //Remove field html
+                x--; //Decrement field counter
+            });
+        });
+    </script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            var maxField = 10; //Input fields increment limitation
+            var addButton = $('.add_prof'); //Add button selector
+            var wrapper = $('.prof_ref'); //Input field wrapper
+            var fieldHTML = ` <div class = "row"><div class = "col-xl-3"><div class = "submit-field"><h5 id="row">Institution Name</h5> <input type = "text" name = "institution" placeholder = "Enter institution name" required class = "with-border">
+                </div> </div><div class = "col-xl-3"><div class = "submit-field"><h5 id="row">Course Name</h5> <input type = "text" name = "course" required class = "with-border" placeholder = "Enter course name" required class = "with-border">
+                </div> </div><div class = "col-xl-4"><div class = "submit-field"><h5 id="row">Timeframe</h5> <div class = "row"><div class = "col-xl-6"><div class = "input-with-icon"><input class = "with-border" type = "month" placeholder = "">
+                <i class = "currency"> Start </i> </div> </div> <div class = "col-xl-6"><div class = "input-with-icon"><input class = "with-border" type = "month" placeholder = "">
+                <i class = "currency"> End </i> </div> </div> </div> </div> </div><div class = "feedback-yes-no margin-top-50"><div class = "radio"><input id = "radio-1" name = "radio" type = "radio" checked>
+                <label for = "radio-1"> <span class = "radio-label"> </span> On-Site</label></div><div class = "radio"><input id = "radio-2" name = "radio" type = "radio">
+                <label for = "radio-2"> <span class = "radio-label"> </span> Online</label> </div> </div><a href="javascript:void(0);" class="dark ripple-effect button-sliding-icon remove_button">Remove </a></div> `; //New input field html
+
+            var x = 1; //Initial field counter is 1
+
+            //Once add button is clicked
+            $(addButton).click(function() {
+                //Check maximum number of input fields
+                if (x < maxField) {
+                    x++; //Increment field counter
+                    $(wrapper).append(fieldHTML); //Add field html
+                }
+            });
+
+            //Once remove button is clicked
+            $(wrapper).on('click', '.remove_button', function(e) {
+                e.preventDefault();
+                $(this).parent('div').remove(); //Remove field html
+                x--; //Decrement field counter
+            });
+        });
+    </script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            var maxField = 10; //Input fields increment limitation
+            var addButton = $('.add_train'); //Add button selector
+            var wrapper = $('.train_ref'); //Input field wrapper
+            var fieldHTML = `<div class = "row"><div class = "col-xl-6"><div class = "submit-field"><h5>Training Title</h5> <input type = "text" class = "with-border"></div> </div> <div class = "col-xl-6">
+                <div class = "submit-field"><h5>Training Institution</h5><input type = "text" class = "with-border"></div> </div><div class = "col-xl-3"><div class = "submit-field">
+                <h5> Area of Training </h5> <input type = "text" class = "with-border"></div> </div><div class = "col-xl-4"><div class = "submit-field"><h5> Timeframe </h5> <div class = "row">
+                <div class = "col-xl-6"><div class = "input-with-icon"><input class = "with-border" type = "month" placeholder = ""><i class = "currency"> Start </i> </div> </div> <div class = "col-xl-6">
+                <div class = "input-with-icon"><input class = "with-border" type = "month" placeholder = ""><i class = "currency"> End </i> </div> </div> </div> </div> </div><div class = "feedback-yes-no margin-top-50">
+                <div class = "radio"><input id = "radio-1" name = "radio" type = "radio" checked><label for = "radio-1"> <span class = "radio-label"> </span> On-Site</label></div><div class = "radio">
+                <input id = "radio-2" name = "radio" type = "radio"><label for = "radio-2"> <span class = "radio-label"> </span> Online</label></div> </div> <a href="javascript:void(0);" class="dark ripple-effect button-sliding-icon remove_button">Remove </a></div> `;
+            //New input field html
+
+            var x = 1; //Initial field counter is 1
+
+            //Once add button is clicked
+            $(addButton).click(function() {
+                //Check maximum number of input fields
+                if (x < maxField) {
+                    x++; //Increment field counter
+                    $(wrapper).append(fieldHTML); //Add field html
+                }
+            });
+
+            //Once remove button is clicked
+            $(wrapper).on('click', '.remove_button', function(e) {
+                e.preventDefault();
+                $(this).parent('div').remove(); //Remove field html
+                x--; //Decrement field counter
+            });
+        });
+    </script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            var maxField = 10; //Input fields increment limitation
+            var addButton = $('.add_work'); //Add button selector
+            var wrapper = $('.work_ref'); //Input field wrapper
+            var fieldHTML = ` <div class = "row"><div class = "col-xl-6"> <div class = "submit-field"><h5>Company Name <b style="color:crimson">*</b></h5><input placeholder = "Enter institution name"
+                  type = "text" name = "institution" required class = "with-border"></div> </div><div class = "col-xl-6"><div class = "submit-field"><h5>Job Title <b style="color:crimson">*</b></h5><input type = "text"
+                  name = "jobtitle" required name = "phone" class = "with-border" placeholder = "Enter job title"></div> </div><div class = "col-xl-2"><div class = "submit-field"><h5>Start Date <b style="color:crimson">*</b></h5>
+                  <input type = "month" name = "startdate" required class = "with-border"></div> </div><div class = "col-xl-2"><div class = "submit-field"><h5>End Date <b style="color:crimson">*</b></h5><input type = "month"
+                  name = "enddate" required class = "with-border"> </div> </div><div class = "col-xl-2 margin-top-50"><div class = "checkbox"><input type = "checkbox"
+                  id = "chekcbox1" checked><label for = "chekcbox1"> <span class = "checkbox-icon"> </span> To-Present</label></div> </div> <div class = "col-xl-12"><div class = "submit-field"><h5>Duties and Responsibilities</h5>
+                  <textarea class = "with-border" name = "duties"> </textarea> </div> </div> <a href="javascript:void(0);" class="dark ripple-effect button-sliding-icon remove_button">Remove </a></div> `; // New input field html
+
+            var x = 1; //Initial field counter is 1
+
+            //Once add button is clicked
+            $(addButton).click(function() {
+                //Check maximum number of input fields
+                if (x < maxField) {
+                    x++; //Increment field counter
+                    $(wrapper).append(fieldHTML); //Add field html
+                }
+            });
+
+            //Once remove button is clicked
+            $(wrapper).on('click', '.remove_button', function(e) {
+                e.preventDefault();
+                $(this).parent('div').remove(); //Remove field html
+                x--; //Decrement field counter
+            });
+        });
+    </script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            var maxField = 10; //Input fields increment limitation
+            var addButton = $('.add_lang'); //Add button selector
+            var wrapper = $('.lang_ref'); //Input field wrapper
+            var fieldHTML = ` <div class = "row"><div class = "col-xl-4"> <div class = "submit-field"> <select class = "selectpicker" multiple data - selected - text - format = "count > 3" >
+                <option> French </option> <option> English </option> <option> Kirundi </option> </select> </div> </div><div class = "col-xl-2"><div class = "submit-field"> <select name = "speak" required class = "selectpicker with-border">
+                <option value = "Fair"> Fair </option> <option value = "Good"> Good </option> <option value = "Very Good"> Very Good </option> </select> </div> </div><div class = "col-xl-2">
+                <div class = "submit-field"> <select name = "read" required class = "selectpicker with-border"><option value = "Fair"> Fair </option> <option value = "Good"> Good </option> <option value = "Very Good"> Very Good </option> </select> </div> </div>
+                <div class = "col-xl-2"><div class = "submit-field"> <select name = "write" required class = "selectpicker with-border"><option value = "Fair"> Fair </option> <option value = "Good"> Good </option> <option value = "Very Good"> Very Good </option> </select> </div> </div><a href="javascript:void(0);" class="dark ripple-effect button-sliding-icon remove_button">Remove </a></div> `; // New input field html
+
+            var x = 1; //Initial field counter is 1
+
+            //Once add button is clicked
+            $(addButton).click(function() {
+                //Check maximum number of input fields
+                if (x < maxField) {
+                    x++; //Increment field counter
+                    $(wrapper).append(fieldHTML); //Add field html
+                }
+            });
+
+            //Once remove button is clicked
+            $(wrapper).on('click', '.remove_button', function(e) {
+                e.preventDefault();
+                $(this).parent('div').remove(); //Remove field html
+                x--; //Decrement field counter
+            });
+        });
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            var maxField = 10; //Input fields increment limitation
+            var addButton = $('.add-ref'); //Add button selector
+            var wrapper = $('.person_ref'); //Input field wrapper
+            var fieldHTML = ` <div class = "row"> <div class = "col-xl-3"> <div class = "submit-field"> <input id="refname-1" name="name-1" type="text" class="with-border" placeholder="Name"></div> </div><div class="col-xl-3"><div class="submit-field"> <input id = "refmail-1" type = "email" name = "email-1" class = "with-border" placeholder = "Email Address"> </div></div> <div class = "col-xl-3"> <div class = "submit-field"> <input id="reftitle-1" type="text" name="title-1" requered class="with-border" placeholder="Position"></div> </div><div class="col-xl-3"><div class="submit-field"> <input id = "refphone-1" type = "tel" name = "phone-1" required class = "with-border" placeholder = "Number"> </div></div> <div class = "col-xl-3 flex"> <div class = "submit-field"> <div class = "form-cv"> </div> </div> </div><a href="javascript:void(0);" class="dark ripple-effect button-sliding-icon remove_button">Remove </a></div> `; //New input field html 
+
+            var x = 1; //Initial field counter is 1
+
+            //Once add button is clicked
+            $(addButton).click(function() {
+                //Check maximum number of input fields
+                if (x < maxField) {
+                    x++; //Increment field counter
+                    $(wrapper).append(fieldHTML); //Add field html
+                }
+            });
+
+            //Once remove button is clicked
+            $(wrapper).on('click', '.remove_button', function(e) {
+                e.preventDefault();
+                $(this).parent('div').remove(); //Remove field html
+                x--; //Decrement field counter
+            });
+        });
+    </script>
+    <script>
+    </script>
+    <script>
+        bootstrapValidate('input[type="email"]', 'email:Enter a valid E-mail!')
+    </script>
+    <script>
+        bootstrapValidate('input[type="tel"]', 'regex:^\d{8}$|min:8:Invalid number!|max:7:Valid!')
+    </script>
+
+
+
+</body>
+
+</html>
+
+</html>
